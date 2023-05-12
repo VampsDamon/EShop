@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    
+}
+nav{
+    border: 2px solid red;
+    display: flex;
+    height: 3vmax;
+}
+.left{
+    border: 1px solid yellow;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.left>a{
+    text-decoration: none;
+    color:crimson;
+    font-size: 2vmx;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mid{
+    border: 1px solid rgb(46, 241, 2);
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.mid>a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 2vmx;
+}
+.right{
+    border: 1px solid rgb(14, 7, 236); 
+    width: 20%;
+}
