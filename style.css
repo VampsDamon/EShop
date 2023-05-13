@@ -59,6 +59,7 @@ nav{
 }
 .right>img{
     width: 2.5vmax;
+    margin-right: 2vmax;
 }
 .home{
     height: 93vh;
