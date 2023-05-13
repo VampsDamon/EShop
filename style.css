@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     overflow-x: hidden;
@@ -45,10 +48,12 @@ nav{
     font-size: 1.4vmax;
 }
 .mid>a:hover{
-    color:crimson;
     border-bottom: 2px solid crimson;
     
     
+}
+.active{
+    color:crimson;
 }
 .right{
     
